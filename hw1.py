@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return render_template("test.html") # Внутри () пишем название html-файла в кавычках
+    return render_template("test.html")
 
 @app.route("/blog/")
 def blog():
